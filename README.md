@@ -1,5 +1,28 @@
 # Marvel-Mart-Project
-MM_Sales.csv is the original data with these errors: incorrect data and missing data\
+Marvel Mart is the worldwide department store chain which has been providing both online and offline sales of a variety of  products for many years. The provide services to countries all over the world and have stores in many countries. Marvel Mart divides their order up by an alphabetical priority labeling system: 
+
+    C: Critical (most essential to be delivered quickly and accurately) 
+
+    H: High 
+
+    M: Medium 
+
+    L: Low 
+
+There are several columns of data for sales: 
+
+    Unit Price: money collected for sale of 1 unit 
+
+    Unit Cost: money spent for purchase of 1 unit 
+
+    Total Revenue: money collected for sale of the collection of units 
+
+    Total Cost: money spent for purchase of the collection of units 
+
+    Total Profit: Total Cost - Total Revenue (profit)      
+
+The rest of the columns should be self-explanatory. <br />
+<br /> MM_Sales.csv is the original data with these errors: incorrect data and missing data\
 The errors are detected in those columns: <br />
   <br /> Country   (either missing OR will be a number as a string)\
    Item Type   (either missing OR won't be a valid Item Type from the other ones listed)\
